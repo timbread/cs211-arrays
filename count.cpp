@@ -36,4 +36,24 @@ int main()
 	
 	cout << ", white space = " << nwhite 
 		 << ", other = " << nother << endl;
+
+	//histogram
+	cout << " " << "white space: ";
+	for (int i = 0; i < nwhite; ++i)
+		cout << "=";
+	cout << endl;
+
+	cout << "      " << "others: ";
+	for (int i = 0; i < nother; ++i)
+		cout << "=";
+	cout << endl;
+
+	for (int i = 0; i < size; ++i) {
+		if (ndigit[i]) {
+			cout << "	   " << i << ": ";
+			for (int j = 0; j < ndigit[i]; ++j)
+				cout << "=";
+			cout << endl;
+		}
+	}
 }
