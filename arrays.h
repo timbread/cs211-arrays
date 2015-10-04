@@ -13,7 +13,7 @@ void task_5_copy(int * arr1, int * arr2, int size);
 
 void task_6_poor_copy(int * arr1, int * arr2, int size);
 
-void task_7_print(int * arr, int size, char delim = ' ');
+void task_7_print(const int * arr, int size, char delim = ' ');
 
 /* ARRAYS_H: */
 #endif
