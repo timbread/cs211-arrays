@@ -15,17 +15,16 @@ void task_1()
     int n = 10;
     int* a = new int[n];
 }
-#if 0
+
 // Task 2
 void task_2()
 {
-    int a[5] = {0};
-    
-    //assert(!a[4]) or assert(a[4]) -- place here one of these and
-    //                                 explain your choice in commit msg
+	int a[5] = { 0 };
+
+	assert(!a[4]);
 }
 
-// returns zero
+#if 0
 int task_3_zero()
 {
     // Task 3
