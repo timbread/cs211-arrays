@@ -15,5 +15,7 @@ void task_6_poor_copy(int * arr1, int * arr2, int size);
 
 void task_7_print(const int * arr, int size, char delim = ' ');
 
+void my_qsort(int * arr, int n);
+
 /* ARRAYS_H: */
 #endif

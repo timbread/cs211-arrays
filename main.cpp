@@ -22,4 +22,9 @@ int main() {
 	task_6_poor_copy(arr3, arr4, 5);
 
 	task_7_print(arr4, 5);
+
+	//quick_sort
+	int arr[7]{ 4, -6, 29, 1, -5, 14, 8 };
+	my_qsort(arr, 7);
+	print(arr, 7);
 }
