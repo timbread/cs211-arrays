@@ -1,5 +1,6 @@
 #include <string>
 #include <cstdio>
+#include <iostream>
 
 using namespace std;
 
@@ -14,9 +15,10 @@ using namespace std;
 int main()
 {
 	string src("12 plus 45 minus 39 is 18\n");
-	int i, nwhite, nother;
+	int i = 0;
+	int nwhite, nother;
 	const int size = 10;
-	int ndigit[size];
+	int ndigit[size] = { 0 };
 	nwhite = nother = 0;
 
 	char c;
